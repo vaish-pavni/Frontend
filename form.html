@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Google Form</h2>
+        <form action="index.php" method="POST">
+                <label for="username">username:</label>
+                <input type="text" id="username" placeholder="JaneCruise" minlength="6" maxlength="12" required>
+
+                <br><br>
+                
+                <label for="password">password:</label>
+                <input type="password" id="password" minlength="6" maxlength="12" required>
+                <br><br>
+
+                <label for="email">email:</label>
+                <input type="email" id="email" placeholder="JaneCruise@gmail.com"  required>
+                <br><br>
+
+                <label for="phone">phone no.:</label>
+                <input type="tel" id="phone" placeholder="+91 995-789-5678"  required>
+
+                <br><br>
+
+                <label for="birthdate">dob:</label>
+                <input type="date" id="birthdate"   required>
+                
+                <br><br>
+
+                <label for="quantity">quantity:</label>
+                <input type="number" id="quantity" min="0" max="99" value="1" required>
+
+                <br><br>
+                <label for="Male.">Male</label>
+                <input type="radio" id="Male." name="title">
+                <label for="Female.">Female</label>
+                <input type="radio" id="Female" name="title">
+                <label for="Other">PhD</label>
+                <input type="radio" id="Other" name="title">
+                
+                <br><br>
+
+                <label for="Course">Course:</label>
+                <select id="Course">
+                
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                </select>
+
+                <br><br>
+
+                <label for="Year">Year-</label>
+                <select id="Year">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>
+                
+                <br><br>
+
+                <label for="Interests">Interests:</label>
+                <select id="Interests">
+                <option value="Coding">Coding</option>
+                <option value="Data Analytics">Data Analytics</option>
+                <option value="CyberSecurity">CyberSecurity</option>
+                </select>
+
+                <br><br>
+
+                <label for="Address">Address:</label>
+                <select id="textarea">
+                <option value="Lucknow">Lucknow</option>
+                <option value="Sitapur">Sitapur</option>
+                </select>
+ 
+                <br><br>
+
+                <label for="file">file</label>
+                <input type="file" id="file">
+
+                <br><br>
+
+                <label for="Terms and Conditions" required>
+                <input type="checkbox">
+                 I agree to the Terms and Conditions   
+                </label>
+
+                <br><br>
+                <input type="submit">
+                <input type="reset">
+
+        </form>
+    </body>
+</html>

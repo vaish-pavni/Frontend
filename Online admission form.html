@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Admission Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Online Admission Form</h1>
+    <hr>
+
+    <form>
+
+        <h2>1. Personal Details</h2>
+
+        <label>Full Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Father's Name:</label>
+        <input type="text" name="father">
+        <br><br>
+
+        <label>Mother's Name:</label>
+        <input type="text" name="mother">
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Address:</label><br>
+        <textarea rows="4" cols="40"></textarea>
+
+        <h2>2. Educational Qualification</h2>
+
+        <label>10th School:</label>
+        <input type="text">
+        <br><br>
+
+        <label>10th Percentage:</label>
+        <input type="number">
+        <br><br>
+
+        <label>12th School:</label>
+        <input type="text">
+        <br><br>
+
+        <label>12th Percentage:</label>
+        <input type="number">
+        <br><br>
+
+        <label>Passing Year:</label>
+        <input type="number">
+        <br><br>
+
+        <h2>3. Course Selection</h2>
+
+        <label>Select Course:</label>
+        <select>
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Com</option>
+            <option>BA</option>
+        </select>
+        <br><br>
+
+        <label>Course Type:</label>
+        <input type="radio" name="type"> Regular
+        <input type="radio" name="type"> Online
+
+        <h2>4. Documents Checklist</h2>
+
+        <input type="checkbox"> Aadhaar Card
+        <br>
+        <input type="checkbox"> 10th Marksheet
+        <br>
+        <input type="checkbox"> 12th Marksheet
+        <br>
+        <input type="checkbox"> Passport-size Photo
+        <br>
+        <input type="checkbox"> Transfer Certificate
+
+        <br><br>
+
+        <h2>5. Upload Documents</h2>
+
+        <label>Upload Marksheet:</label>
+        <input type="file">
+
+        <br><br>
+
+        <label>Upload Photo:</label>
+        <input type="file">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
